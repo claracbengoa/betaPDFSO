@@ -4,7 +4,9 @@ Reliability Index based strategy for the **P**robability **D**amage approach in 
 
 The β-PDFSO is a new fail-safe optimization strategy to include available information on the probability of occurrence of different accidental scenarios as well as uncertainty in parameters affecting structural responses. The optimization approach avoids obtaining oversized designs, as the value of the objective function is reduced compared to the fail-safe RBDO. Due to the lack of knowledge of which damaged configuration will occur, a new random reliability index 
 <img src="https://render.githubusercontent.com/render/math?math=\hat{\beta}">
-is defined for each limit-state of the damaged structure. This new random variable is constructed through the $\beta$ in each damaged configuration. The method guarantees 
+is defined for each limit-state of the damaged structure. This new random variable is constructed through the 
+<img src="https://render.githubusercontent.com/render/math?math=\beta">
+in each damaged configuration. The method guarantees 
 <img src="https://render.githubusercontent.com/render/math?math=\beta^T">
 in the limit-states of the intact configuration and 
 <img src="https://render.githubusercontent.com/render/math?math=P[\beta < \beta^T] \le p_f^T">
